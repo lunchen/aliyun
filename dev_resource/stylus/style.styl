@@ -1,0 +1,472 @@
+.video1
+	position fixed
+	right 0
+	bottom 0
+	min-width 100%
+	min-height 100%
+	width auto
+	height auto
+	z-index -10
+	background url(../../image/video-bg.jpg) no-repeat
+	background-size cover
+video
+	vertical-align baseline
+	object-fit contain
+	
+.allWidth
+	width 1224px
+	margin 0 auto
+.header
+	z-index 100
+	position absolute
+	width 100%
+	.nav
+		position relative
+		line-height 90px
+		height 90px
+		.div1
+			height 90px
+			line-height 90px
+			color white
+			float left
+			cursor pointer
+		.nav-left
+			float left
+			.logo
+				width 230px
+				background url(../../image/logo.png) no-repeat
+				background-position 0 40%
+			.left
+				padding 0 18px
+				font-weight bold
+				&:hover
+					background #0096bb
+				&:hover .nav-left-add
+					max-height 300px
+					transition-delay .4s
+				.nav-left-add
+					width 928px
+					height auto
+					max-height 0
+					background white
+					position absolute
+					color black
+					top 90px
+					left 230px
+					transition all .4s linear
+					overflow hidden
+					line-height 1
+					.add-item
+						margin-right 40px
+						margin 25px 0px 10px 25px
+						.module-item
+							width 368px
+							margin 0 40px 20px 0
+							a
+								color #333
+								font-size 14px
+								line-height 18.5px
+								&:hover
+									color #00a2ca
+							div
+								color #8e8e8e
+								font-size 12px
+								line-height 15.5px
+						.goleft
+							float left
+						.module-wrap
+							width 170px
+							margin-right 63px
+							float left
+							.module-heard
+								margin-bottom 15px
+								padding-bottom 10.5px
+								font-size 14px
+								line-height 18.5px
+								color #999
+								border-bottom 1px solid #F2F2F2
+								.module-item
+									margin-bottom 20px
+									a
+										font-size 14px 
+										line-height 18.5px
+										&:hover
+											color #00a2ca
+						.last
+							margin-right 0px
+		.nav-right
+			float right
+			.right
+				padding 0 20.8px
+			.nav-icon
+				&:hover .nav-right-add
+					display block
+				.nav-right-add
+					width 120px
+					background white
+					position absolute
+					top 90px
+					right 0
+					display none
+					padding 17px 0 0 20px
+					a
+						display block
+						font-size 12px
+						line-height 36px
+						color #333
+						&:hover
+							color #00a2ca	
+				&:hover .right-icon
+					height 10px
+					&:before
+						height 0px
+					&:after
+						height 20px
+				.right-icon
+					width 16px
+					height 6px
+					display inline-block
+					vertical-align super
+					border-bottom 1px solid white
+					transition height .3s
+					&:before
+						content ""
+						display block
+						border-top 1px solid white
+						width 16px
+					&:after
+						content ""
+						display block
+						border-bottom 1px solid white
+						width 16px
+						height 10px
+						transition height .3s
+.all
+	position relative
+	width 100%
+	.all-top
+		width 100%
+		height 500px
+		position relative
+		&:before
+			z-index 2
+			border-right 1440px solid transparent
+			position absolute
+			right 49%
+			display block
+			content ' '
+			width 0px
+			height 0px
+			border-bottom 110px solid #fff
+			bottom 0
+		&:after
+			z-index 2
+			border-left 1440px solid transparent
+			position absolute
+			left 49%
+			display block
+			content ' '
+			width 0px
+			height 0px
+			border-bottom 110px solid #fff
+			bottom 0
+		.backgrounds
+			li
+				width 100%
+				height 500px
+				display none
+				img
+					position absolute
+					top 0
+					left 50%
+					margin-left -720px
+		.all-top-content
+			.page
+				display none
+				width 100%
+				position absolute
+				top -30px
+				color white
+				.page-item
+					margin 0 auto
+					width 1224px
+					display block
+					color white
+					padding-bottom 80px
+					h1
+						font-size 48px
+						font-weight 100
+						text-shadow 0 0 3px rgba(0,0,0,.13)
+						margin-top 142px
+						margin-bottom 15px
+					h2
+						line-height 30px
+						font-size 20px
+						font-weight 100
+						text-shadow 0 0 3px rgba(0,0,0,.13)
+						margin-bottom 37px
+					span
+						text-align center
+						display block
+						width 180px
+						height 42px
+						line-height 42px
+						font-size 16px
+						border 1px solid white
+				.page-last
+					text-align center
+					a
+						margin 0 auto
+						text-align center
+						display block
+						width 180px
+						height 42px
+						line-height 42px
+						font-size 16px
+						background #00A2CA
+						&:hover
+							background #33b5d5
+		.bottom-yuan
+			text-align center
+			width 100%
+			margin-top -40px
+			position absolute
+			bottom 40px
+			z-index 200
+			.yuan
+				display inline-block
+				vertical-align top
+				cursor pointer
+				width 16px
+				height 16px
+				border-radius 8px
+				margin 0 5px
+				background rgba(255,255,255,.5)
+			.active
+				background rgb(255,255,255)
+	.all-center1
+		height 700px
+		padding-top 55px
+		background white
+		h2
+			text-align center
+			font-size 36px
+			margin-bottom 40px
+	.row
+		text-align center
+		h3
+			font-size 24px
+			margin-bottom 10px
+		p
+			color #666
+			font-size 16px
+			line-height 32px
+			a
+				color #00A2CA
+				cursor pointer
+				&:hover
+					color #43BFE3
+		img
+			margin-top 25px
+			width 298px
+			height 298px
+		.row-left
+			width 50%
+			float left
+		.row-right
+			width 50%
+			float right
+	.all-center2
+		height 566px
+		background rgba(30, 85, 101, 0.65)
+		color white
+		padding-top 60px
+		.layout
+			width 1224px
+			margin 0 auto
+			h2
+				text-align center
+				font-size 36px
+				margin-bottom 65px
+			.col
+				text-align left
+				float left
+				width 408px
+				padding 0 32px 0 12px
+				h3
+					font-size 24px
+					margin-bottom 10px
+				p
+					font-size 16px
+					color white
+					a
+						text-align center
+						color white
+						display block
+						width 140px
+						height 36px
+						line-height 36px
+						font-size 14px
+						margin-top 25px
+						background #00A2CA
+						&:hover
+							background #33b5d5
+	.all-center3
+		height 580px
+		background url(../../image/datav_bg.png)
+		padding-top 90px		
+		.layout
+			width 1224px
+			margin 0 auto
+			h2
+				text-align center
+				font-size 36px
+				margin-bottom 65px
+			.col
+				text-align left
+				float left
+				width 408px
+				padding 0 32px 0 12px
+				h3
+					font-size 24px
+					margin-bottom 10px
+				p
+					font-size 16px
+					color #666
+					a
+						text-align center
+						color white
+						display block
+						width 140px
+						height 36px
+						line-height 36px
+						font-size 14px
+						margin-top 25px
+						background #00A2CA
+						&:hover
+							background #33b5d5		
+	.all-center4
+		background rgba(30, 85, 101, 0.65)
+		height 524px
+		padding-top 70px
+		.layout
+			width 1224px
+			margin 0 auto
+			h2
+				text-align center
+				font-size 36px
+				margin-bottom 20px
+				color white
+			p
+				color white
+				font-size 18px
+				line-height 32px
+				margin-bottom 20px
+				text-align center
+			.products
+				width 100%
+				a
+					width 160px
+					height 160px
+					background rgba(255,255,255,0.10)
+					float left
+					display block
+					margin-right 40px
+					padding 40px 50px
+					text-align center
+					&:hover
+						background rgba(255,255,255,0.30)
+					div
+						font-family MicrosoftYaHei
+						font-size 14px
+						color #fff
+						text-align center
+						margin-top 15px
+			.lay-bottm
+				text-align center
+				padding-top 50px
+				a
+					display block
+					margin 0 auto
+					width 140px
+					height 36px
+					line-height 36px
+					font-size 14px
+					background-color #00A2CA
+					&:hover
+							background #33b5d5	
+	.all-center5
+		height 396px
+		width 100%
+		background white
+		padding-top 70px
+		.layout
+			width 1224px
+			margin 0 auto
+			h2
+				text-align center
+				font-size 36px
+				margin-bottom 65px
+				color black
+			p
+				color black
+				font-size 18px
+				line-height 32px
+				margin-bottom 20px
+				text-align center
+				a
+					display block
+					margin 0 auto
+					width 180px
+					height 42px
+					line-height 42px
+					font-size 16px
+					background-color #00A2CA
+					color white
+					&:hover
+							background #33b5d5	
+.footer
+	height 205px
+	width 100%
+	padding 35px 12px 40px 12px
+	background white
+	border-top 1px solid #e5e5e5
+	text-align center
+	.big
+		padding 5px 0
+		line-height 21px
+		a
+			color #666
+	.link-wrap
+		padding 5px 0
+		line-height 24px
+		a
+			padding 0 10px 0 5px
+			color #b3b3b3
+			font-size 12px
+	.link-bottom
+		padding 5px 0
+		font-size 12px
+		color #999
+.fixed-right
+	position fixed
+	right 10px
+	bottom 100px
+	z-index 300
+	.fixeds
+		width 36px
+		height 36px
+		border-radius 50%
+		text-align center
+		cursor pointer
+	.fixed1
+		padding-top 5px
+		background #00A2CA
+		font-size 12px
+		line-height 1
+		color white
+	.fixed2
+		background #eee
+		color #acacac
+		line-height 36px
+	
